@@ -1,0 +1,14 @@
+{
+  "name": "tms-complaint-system",
+  "version": "1.0.0",
+  "description": "TMS Complaint Management Mobile App (React Native & Expo) + Express Backend",
+  "scripts": {
+    "start": "npm run mobile",
+    "mobile": "cd mobile && npx expo start",
+    "mobile:android": "cd mobile && npx expo start --android",
+    "mobile:ios": "cd mobile && npx expo start --ios",
+    "mobile:web": "cd mobile && npx expo start --web",
+    "backend": "cd backend && npm run dev",
+    "init:admin": "cd backend && node scripts/initAdmin.js"
+  }
+}
